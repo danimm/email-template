@@ -7,7 +7,7 @@
 
             <!--  Components -->
             <mj-text font-family="Helvetica, Arial" color="#202020" padding="0" />
-            <mj-button background-color="#2AAADF" border-radius="10px" color="white" font-size="16px" font-weight="bold" inner-padding="15px" padding="0" />
+            <mj-button background-color="#19A7CE" border-radius="10px" color="white" font-size="16px" font-weight="bold" inner-padding="15px" padding="0" />
             <mj-divider border-color="gray" border-width="1px" padding="30px 18px 30px 18px" />
             <mj-section padding="0" background-color="white" />
             <mj-image padding="0" />
@@ -21,7 +21,7 @@
                 <mj-image
                     src="https://mcusercontent.com/c7be4e5a92c614f9bacfd5be7/images/e289126e-d024-75b5-32e0-68d27e181536.jpeg"
                     alt="logo-company"
-                    padding="0 80px"
+                    padding="0 40px"
                 />
             </mj-column>
         </mj-section>
@@ -45,7 +45,7 @@
         </mj-section>
 
         <!-- Description -->
-        <mj-section padding-top="20px">
+        <mj-section padding="20px 16px 0 16px">
             <mj-column>
                 <mj-text mj-class="p-2">
                     Sehr geehrter Herr Mitrovic,
@@ -69,7 +69,7 @@
         </mj-section>
 
         <!-- 2 columns: Buttons + Profile image -->
-        <mj-section padding-top="30px">
+        <mj-section padding="30px 16px 0 16px">
             <!-- Text + divider + Buttons + Profile image -->
             <mj-column>
                 <mj-text mj-class="p-2">
@@ -89,6 +89,7 @@
                     href="https://mcusercontent.com/c7be4e5a92c614f9bacfd5be7/files/41b6877c-201d-0659-543f-da65cc1f8002/lebenslauf_daniel.01.pdf"
                     target="_blank"
                     padding-top="20px"
+                    padding-bottom="20px"
                 >
                     Lebenslauf
                 </mj-button>
@@ -98,7 +99,8 @@
             <mj-column>
                 <mj-image
                     src="https://mcusercontent.com/c7be4e5a92c614f9bacfd5be7/images/9ae72618-bd1b-54a6-5359-90ff6dec5773.png"
-                    alt="logo-company"
+                    fluid-on-mobile="true"
+                    alt="profile image"
                 />
                 <mj-text
                     mj-class="p-2"
@@ -155,36 +157,41 @@
         </mj-section>
 
         <!-- Social links -->
-        <mj-section padding-bottom="40px">
-            <mj-column>
-                <mj-image
-                    src="https://cdn-images.mailchimp.com/icons/social-block-v2/color-linkedin-48.png"
-                    href="https://www.linkedin.com/in/daniel-mm/"
-                    target="_blank"
-                    width="40px"
-                    alt="linkedin logo"
-                />
-            </mj-column>
+        <mj-section padding-bottom="20px">
+            <mj-group>
+                <mj-column>
+                    <mj-image
+                        src="https://cdn-images.mailchimp.com/icons/social-block-v2/color-linkedin-48.png"
+                        href="https://www.linkedin.com/in/daniel-mm/"
+                        target="_blank"
+                        width="40px"
+                        padding-bottom="20px"
+                        alt="linkedin logo"
+                    />
+                </mj-column>
 
-            <mj-column>
-                <mj-image
-                    src="https://cdn-images.mailchimp.com/icons/social-block-v2/color-github-48.png"
-                    href="https://github.com/danimm"
-                    target="_blank"
-                    width="40px"
-                    alt="github logo"
-                />
-            </mj-column>
+                <mj-column>
+                    <mj-image
+                        src="https://cdn-images.mailchimp.com/icons/social-block-v2/color-github-48.png"
+                        href="https://github.com/danimm"
+                        target="_blank"
+                        width="40px"
+                        padding-bottom="20px"
+                        alt="github logo"
+                    />
+                </mj-column>
 
-            <mj-column>
-                <mj-image
-                    src="https://cdn-images.mailchimp.com/icons/social-block-v2/color-twitter-48.png"
-                    href="https://twitter.com/Danimm_dev"
-                    target="_blank"
-                    width="40px"
-                    alt="twitter logo"
-                />
-            </mj-column>
+                <mj-column>
+                    <mj-image
+                        src="https://cdn-images.mailchimp.com/icons/social-block-v2/color-twitter-48.png"
+                        href="https://twitter.com/Danimm_dev"
+                        target="_blank"
+                        width="40px"
+                        padding-bottom="20px"
+                        alt="twitter logo"
+                    />
+                </mj-column>
+            </mj-group>
         </mj-section>
     </mj-body>
 </mjml>
