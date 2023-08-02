@@ -1,0 +1,190 @@
+<mjml>
+    <mj-head>
+        <mj-attributes>
+            <!--  Classes -->
+            <mj-class name="p-1" font-size="26px" />
+            <mj-class name="p-2" font-size="16px" line-height="150%" padding-top="20px" />
+
+            <!--  Components -->
+            <mj-text font-family="Helvetica, Arial" color="#202020" padding="0" />
+            <mj-button background-color="#2AAADF" border-radius="10px" color="white" font-size="16px" font-weight="bold" inner-padding="15px" padding="0" />
+            <mj-divider border-color="gray" border-width="1px" padding="30px 18px 30px 18px" />
+            <mj-section padding="0" background-color="white" />
+            <mj-image padding="0" />
+        </mj-attributes>
+    </mj-head>
+
+    <mj-body background-color="white" width="600px">
+        <!-- Logo image -->
+        <mj-section padding-top="20px">
+            <mj-column>
+                <mj-image
+                    src="https://mcusercontent.com/c7be4e5a92c614f9bacfd5be7/images/e289126e-d024-75b5-32e0-68d27e181536.jpeg"
+                    alt="logo-company"
+                    padding="0 80px"
+                />
+            </mj-column>
+        </mj-section>
+
+        <!-- Divider -->
+        <mj-section>
+            <mj-column>
+                <mj-divider />
+            </mj-column>
+        </mj-section>
+
+        <!-- Title + link -->
+        <mj-section>
+            <mj-column>
+                <mj-text mj-class="p-1" align="center">
+                    <a href="https://digt.ch/jobs/front-end-developer-50-100-2/" target="_blank">
+                        Frontend Developer (50-100%)
+                    </a>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+        <!-- Description -->
+        <mj-section padding-top="20px">
+            <mj-column>
+                <mj-text mj-class="p-2">
+                    Sehr geehrter Herr Mitrovic,
+                </mj-text>
+
+                <mj-text mj-class="p-2">
+                    Ich habe Ihr Stellenangebot gesehen und muss sagen, dass ich Ihre Firma sehr interessant finde und gerne Teil des Teams werden würde.
+                </mj-text>
+
+                <mj-text mj-class="p-2">
+                    Ich denke, meine Fähigkeiten entsprechen dem Profil, das Sie suchen, und ich bin sicher, dass ich Ihrem Unternehmen bei der Entwicklung des Produkts helfen kann.
+                </mj-text>
+
+                <mj-text mj-class="p-2">
+                    Aus diesem Grund, sehr gerne bewerbe ich mich bei Ihrer Firma
+                    <span style="font-weight: bold">Digt AG</span>
+                    um die Stelle als:
+                    <span style="font-weight: bold">Frontend Developer.</span>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+        <!-- 2 columns: Buttons + Profile image -->
+        <mj-section padding-top="30px">
+            <!-- Text + divider + Buttons + Profile image -->
+            <mj-column>
+                <mj-text mj-class="p-2">
+                    Anbei erhalten Sie meine Bewerbungsunterlagen als PDF.
+                </mj-text>
+
+                <mj-divider padding="40px 20px 40px 0" />
+
+                <mj-button
+                    href="https://mcusercontent.com/c7be4e5a92c614f9bacfd5be7/files/2c5f4b09-3947-dc0c-0ccf-e22789c9212a/bewerbungschreiben_digt_daniel.pdf"
+                    target="_blank"
+                >
+                    Bewerbungschreiben
+                </mj-button>
+
+                <mj-button
+                    href="https://mcusercontent.com/c7be4e5a92c614f9bacfd5be7/files/41b6877c-201d-0659-543f-da65cc1f8002/lebenslauf_daniel.01.pdf"
+                    target="_blank"
+                    padding-top="20px"
+                >
+                    Lebenslauf
+                </mj-button>
+            </mj-column>
+
+            <!-- Profile image -->
+            <mj-column>
+                <mj-image
+                    src="https://mcusercontent.com/c7be4e5a92c614f9bacfd5be7/images/9ae72618-bd1b-54a6-5359-90ff6dec5773.png"
+                    alt="logo-company"
+                />
+                <mj-text
+                    mj-class="p-2"
+                    align="center"
+                    container-background-color="#404040"
+                    color="white"
+                    padding="5px 0"
+                    line-height="0"
+                >
+                    Daniel Muñoz
+                </mj-text>
+                <mj-text
+                    mj-class="p-2"
+                    align="center"
+                    container-background-color="#404040"
+                    color="white"
+                    line-height="0"
+                    padding="5px 10px 20px 10px"
+                >
+                    Frontend developer
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+        <!-- Divider -->
+        <mj-section>
+            <mj-column>
+                <mj-divider />
+            </mj-column>
+        </mj-section>
+
+        <!-- Farewell -->
+        <mj-section>
+            <mj-column>
+                <mj-text mj-class="p-2" align="center" padding-top="0">
+                    Ich freue mich über Ihre Rückmeldung.
+                </mj-text>
+
+                <mj-text mj-class="p-2" align="center" padding-top="10px">
+                    Mit freundlichen Grüssen
+                </mj-text>
+
+                <mj-text mj-class="p-2" align="center" padding-top="10px">
+                    Daniel Muñoz Martín
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+        <!-- Divider -->
+        <mj-section>
+            <mj-column>
+                <mj-divider />
+            </mj-column>
+        </mj-section>
+
+        <!-- Social links -->
+        <mj-section padding-bottom="40px">
+            <mj-column>
+                <mj-image
+                    src="https://cdn-images.mailchimp.com/icons/social-block-v2/color-linkedin-48.png"
+                    href="https://www.linkedin.com/in/daniel-mm/"
+                    target="_blank"
+                    width="40px"
+                    alt="linkedin logo"
+                />
+            </mj-column>
+
+            <mj-column>
+                <mj-image
+                    src="https://cdn-images.mailchimp.com/icons/social-block-v2/color-github-48.png"
+                    href="https://github.com/danimm"
+                    target="_blank"
+                    width="40px"
+                    alt="github logo"
+                />
+            </mj-column>
+
+            <mj-column>
+                <mj-image
+                    src="https://cdn-images.mailchimp.com/icons/social-block-v2/color-twitter-48.png"
+                    href="https://twitter.com/Danimm_dev"
+                    target="_blank"
+                    width="40px"
+                    alt="twitter logo"
+                />
+            </mj-column>
+        </mj-section>
+    </mj-body>
+</mjml>
