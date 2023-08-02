@@ -60,7 +60,7 @@
                 </mj-text>
 
                 <mj-text mj-class="p-2">
-                    Aus diesem Grund, sehr gerne bewerbe ich mich bei Ihrer Firma
+                    Aus diesem Grund bewerbe ich mich sehr gerne bei Ihrer Firma
                     <span style="font-weight: bold">Digt AG</span>
                     um die Stelle als:
                     <span style="font-weight: bold">Frontend Developer.</span>
@@ -82,7 +82,7 @@
                     href="https://mcusercontent.com/c7be4e5a92c614f9bacfd5be7/files/2c5f4b09-3947-dc0c-0ccf-e22789c9212a/bewerbungschreiben_digt_daniel.pdf"
                     target="_blank"
                 >
-                    Bewerbungschreiben
+                    Bewerbungsschreiben
                 </mj-button>
 
                 <mj-button
